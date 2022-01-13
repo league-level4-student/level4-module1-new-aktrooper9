@@ -30,17 +30,17 @@ public abstract class AbstractClassDemo {
      * its abstract methods with the same method header minus the abstract
      * keyword.
      */
-    public abstract void abstractDemo();
+    public abstract void demo();
 
     /*
      * An abstract method without a void return type will only require curly
      * brackets to be considered "implemented", but if it has a return type it
      * also requires a return statement that returns an appropriate value.
      */
-    public abstract int abstractNumDemo();
+    public abstract int numDemo();
 
     // An abstract class can also still contain implemented methods.
-    public void demo() {
+    public void demo1() {
         System.out.println("Demo");
     }
 
